@@ -27,6 +27,10 @@ SmartCourse AI is a web-based teaching-workflow prototype designed to help educa
 - **Reporting:** subject reports and downloads; Bloom question-paper export in DOCX, PDF, and JPG.
 - **Interface:** responsive design, profile-area light/dark theme toggle with browser-persisted preference, and animated teacher–student SVG illustration in the updated Flask version.
 
+## 🧩 Web page
+<img width="1345" height="639" alt="image" src="https://github.com/user-attachments/assets/f312d475-a031-42c6-9f3c-f0bdb8a6cf32" />
+
+
 ## 🧩 Project Modules
 
 | Module | Purpose |
@@ -135,6 +139,7 @@ Add your own application screenshots to a `screenshots/` folder and link them he
 This is an educational prototype intended for local demonstration. Passwords are hashed and sessions use HTTP-only cookies with SameSite=Lax. However, **sample subjects and course records are shared across registered accounts**; per-user record ownership and authorization are not implemented. Do not upload confidential student records or deploy publicly without adding appropriate permissions, CSRF protection, HTTPS, rate limiting, and other production security measures. Set a strong `SECRET_KEY` environment variable before any deployment. Back up your local `smartcourse.db` before replacing files.
 
 ## 🔮 Future Enhancements
+
 
 - Integrate and evaluate actual AI-assisted course and question-generation services.
 - Add role-based access for administrators, teachers, and students.
